@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC  
+    "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"  
+    "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+
+<!-- ################################ COMEDOR UNIVERSITARIO ############################## -->
+		
+	
+
+	
+	<!-- VERIFICAR_PADRON.HTM  -->
+	
+	<definition name="verificarPadron" extends="templateSistema">
+		<put-attribute name="css2"  value="/WEB-INF/views/bienestar/comedorUnt/verificarPadron/verificarPadronCss.jsp" />
+		<put-attribute name="contenido"  value="/WEB-INF/views/bienestar/comedorUnt/verificarPadron/verificarPadronContenido.jsp" />
+		<put-attribute name="js2"  value="/WEB-INF/views/bienestar/comedorUnt/verificarPadron/verificarPadronJs.jsp" />
+	</definition>
+	
+	<!-- TICKET_COMEDOR.HTM  -->
+	
+	<definition name="ticketComedor" extends="templateSistema">
+		<put-attribute name="css2"  value="/WEB-INF/views/bienestar/comedorUnt/registrarTicket/registrarTicketCss.jsp" />
+		<put-attribute name="contenido"  value="/WEB-INF/views/bienestar/comedorUnt/registrarTicket/registrarTicketContenido.jsp" />
+		<put-attribute name="js2"  value="/WEB-INF/views/bienestar/comedorUnt/registrarTicket/registrarTicketJs.jsp" />
+	</definition>
+	
+	<!-- REGISTRAR_COMENSAL.HTM -->
+	
+	<definition name="registrarComensal" extends="templateSistema">
+		<put-attribute name="css2"  value="/WEB-INF/views/bienestar/comedorUnt/verificarPadron/verificarPadronCss.jsp" />
+		<put-attribute name="contenido"  value="/WEB-INF/views/bienestar/comedorUnt/verificarPadron/RegistrarComensalContenido.jsp" />
+		<put-attribute name="js2"  value="/WEB-INF/views/bienestar/comedorUnt/verificarPadron/RegistrarComensalJs.jsp" />
+	</definition>
+	
+
+	
+	
+</tiles-definitions>
+

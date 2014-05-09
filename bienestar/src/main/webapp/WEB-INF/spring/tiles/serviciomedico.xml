@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC  
+    "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"  
+    "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+
+
+	
+	<!-- ################################ SERVICIO MEDICO ############################## -->
+	
+	<!-- FICHA MEDICA.HTM  -->
+	
+	<definition name="servicioclinicosecretaria" extends="templateSistema">
+		<put-attribute name="css2"  value="/WEB-INF/views/bienestar/servicioMedico/fichamedicaCss.jsp" />
+		<put-attribute name="contenido"  value="/WEB-INF/views/bienestar/servicioMedico/secretaria.jsp" />
+		<put-attribute name="js2"  value="/WEB-INF/views/bienestar/servicioMedico/fichamedicaJs.jsp" />
+	</definition>
+	
+		<!-- ################################ SERVICIO CLINICO LABORATORIO ################################ -->
+	<definition name="servicioclinicolaboratorio" extends="templateSistema">
+		<put-attribute name="css2"  value="/WEB-INF/views/bienestar/servicioMedico/fichamedicaCss.jsp" />
+		<put-attribute name="contenido"  value="/WEB-INF/views/bienestar/servicioMedico/laboratorio.jsp" />
+		<put-attribute name="js2"  value="/WEB-INF/views/bienestar/servicioMedico/fichamedicaJs.jsp" />
+	</definition>
+	<definition name="fichalaboratorio" extends="templateSistema">
+		<put-attribute name="css2"  value="/WEB-INF/views/bienestar/servicioMedico/fichamedicaCss.jsp" />
+		<put-attribute name="contenido"  value="/WEB-INF/views/bienestar/servicioMedico/fichalaboratorio.jsp" />
+		<put-attribute name="js2"  value="/WEB-INF/views/bienestar/servicioMedico/fichamedicaJs.jsp" />
+	</definition>
+	
+	<!-- ################################ SERVICIO CLINICO TOPICO ################################ -->
+	<definition name="servicioclinicotopico" extends="templateSistema">
+		<put-attribute name="css2"  value="/WEB-INF/views/bienestar/servicioMedico/fichamedicaCss.jsp" />
+		<put-attribute name="contenido"  value="/WEB-INF/views/bienestar/servicioMedico/listatopico.jsp" />
+		<put-attribute name="js2"  value="/WEB-INF/views/bienestar/servicioMedico/fichamedicaJs.jsp" />
+	</definition>
+	<definition name="fichatopico" extends="templateSistema">
+		<put-attribute name="css2"  value="/WEB-INF/views/bienestar/servicioMedico/fichamedicaCss.jsp" />
+		<put-attribute name="contenido"  value="/WEB-INF/views/bienestar/servicioMedico/fichatopico.jsp" />
+		<put-attribute name="js2"  value="/WEB-INF/views/bienestar/servicioMedico/fichamedicaJs.jsp" />
+	</definition>
+	<definition name="fichamedica2" extends="templateSistema">
+		<put-attribute name="css2"  value="/WEB-INF/views/bienestar/servicioMedico/fichamedicaCss.jsp" />
+		<put-attribute name="contenido"  value="/WEB-INF/views/bienestar/servicioMedico/fichamedicacontenido2.jsp" />
+		<put-attribute name="js2"  value="/WEB-INF/views/bienestar/servicioMedico/fichamedicaJs.jsp" />
+	</definition>
+	
+	
+	
+	
+	
+</tiles-definitions>

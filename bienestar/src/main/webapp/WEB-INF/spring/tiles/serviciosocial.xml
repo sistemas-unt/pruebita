@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC  
+    "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"  
+    "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+
+<!-- ################################ BIENESTAR ############################## -->
+	
+	<!-- HISTORIAL_SOCIAL.HTM  -->
+	
+	<definition name="historiaSocial" extends="templateSistema">
+		<put-attribute name="css2"  value="/WEB-INF/views/bienestar/servicioSocial/historial/historiaSocialCss.jsp" />
+		<put-attribute name="contenido"  value="/WEB-INF/views/bienestar/servicioSocial/historial/historiaSocialContenido.jsp" />
+		<put-attribute name="js2"  value="/WEB-INF/views/bienestar/servicioSocial/historial/historiaSocialJs.jsp" />
+	</definition>
+	
+	<!-- FICHA_COMEDOR.HTM  -->
+	
+	<definition name="fichaComedor" extends="templateSistema">
+		<put-attribute name="css2"  value="/WEB-INF/views/bienestar/servicioSocial/fichacomedor/fichaComedorCss.jsp" />
+		<put-attribute name="contenido"  value="/WEB-INF/views/bienestar/servicioSocial/fichacomedor/fichaComedorContenido.jsp" />
+		<put-attribute name="js2"  value="/WEB-INF/views/bienestar/servicioSocial/fichacomedor/fichaComedorJs.jsp" />
+	</definition>
+	<!-- LISTA_COMEDOR.HTM  -->
+	
+	<definition name="listaComedor" extends="templateSistema">
+		<put-attribute name="css2"  value="/WEB-INF/views/bienestar/servicioSocial/fichacomedor/fichaComedorCss.jsp" />
+		<put-attribute name="contenido"  value="/WEB-INF/views/bienestar/servicioSocial/fichacomedor/listaComedorContenido.jsp" />
+		<put-attribute name="js2"  value="/WEB-INF/views/bienestar/servicioSocial/fichacomedor/listaComedorJs.jsp" />
+	</definition>
+	<!-- EDITAR_COMEDOR.HTM  -->
+	
+	<definition name="editarComedor" extends="templateSistema">
+		<put-attribute name="css2"  value="/WEB-INF/views/bienestar/servicioSocial/fichacomedor/fichaComedorCss.jsp" />
+		<put-attribute name="contenido"  value="/WEB-INF/views/bienestar/servicioSocial/fichacomedor/editarComedorContenido.jsp" />
+		<put-attribute name="js2"  value="/WEB-INF/views/bienestar/servicioSocial/fichacomedor/fichaComedorJs.jsp" />
+	</definition>
+	
+	<!-- EDITAR_TICKETS.HTM  -->
+	<definition name="editarTickets" extends="templateSistema">
+		<put-attribute name="css2"  value="/WEB-INF/views/bienestar/servicioSocial/editarTicketsCss.jsp" />
+		<put-attribute name="contenido"  value="/WEB-INF/views/bienestar/servicioSocial/editarTicketsContenido.jsp" />
+		<put-attribute name="js2"  value="/WEB-INF/views/bienestar/servicioSocial/controlSocialJs.jsp" />
+	</definition> 
+		
+	<!-- CONTROL_SOCIAL.HTM   -->
+	
+	<definition name="controlSocial" extends="templateSistema">
+		<put-attribute name="css2"  value="/WEB-INF/views/bienestar/servicioSocial/controlSocialCss.jsp" />
+		<put-attribute name="contenido"  value="/WEB-INF/views/bienestar/servicioSocial/controlSocialContenido.jsp" />
+		<put-attribute name="js2"  value="/WEB-INF/views/bienestar/servicioSocial/controlSocialJs.jsp" />
+	</definition>
+	
+	
+	<!-- EDITAR_CONTROL.HTM  -->
+	
+	<definition name="editarControl" extends="templateSistema">
+		<put-attribute name="css2"  value="/WEB-INF/views/bienestar/servicioSocial/controlSocialCss.jsp" />
+		<put-attribute name="contenido"  value="/WEB-INF/views/bienestar/servicioSocial/editarControlContenido.jsp" />
+		<put-attribute name="js2"  value="/WEB-INF/views/bienestar/servicioSocial/controlSocialJs.jsp" />
+	</definition> 
+	
+	<definition name="reasignarTickets" extends="templateSistema">
+		<put-attribute name="css2"  value="/WEB-INF/views/bienestar/servicioSocial/controlSocialCss.jsp" />
+		<put-attribute name="contenido"  value="/WEB-INF/views/bienestar/servicioSocial/reasignarTickets.jsp" />
+		<put-attribute name="js2"  value="/WEB-INF/views/bienestar/servicioSocial/controlSocialJs.jsp" />
+	</definition>
+	
+	<definition name="sobratickets" extends="templateSistema">
+		<put-attribute name="css2"  value="/WEB-INF/views/bienestar/servicioSocial/controlSocialCss.jsp" />
+		<put-attribute name="contenido"  value="/WEB-INF/views/bienestar/servicioSocial/sobratickets.jsp" />
+		<put-attribute name="js2"  value="/WEB-INF/views/bienestar/servicioSocial/controlSocialJs.jsp" />
+	</definition>
+	
+	
+</tiles-definitions>
+

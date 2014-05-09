@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC  
+    "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"  
+    "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+
+
+	
+	<!-- ################################ HOME ############################## -->
+	
+	<!-- BIENVENIDA.HTM  -->
+	
+	<definition name="bienvenida" extends="templateSistema">
+		<put-attribute name="css2"  value="/WEB-INF/views/home/bienvenida/bienvenidaCss.jsp" />
+		<put-attribute name="contenido"  value="/WEB-INF/views/home/bienvenida/bienvenidaContenido.jsp" />
+		<put-attribute name="js2"  value="/WEB-INF/views/home/bienvenida/bienvenidaJs.jsp" />
+	</definition>
+	
+	<!-- CAMBIARCONTRASEÑA.HTM  -->
+	
+	<definition name="cambiarContra" extends="templateSistema">
+		<put-attribute name="css2"  value="/WEB-INF/views/home/perfil/perfilCss.jsp" />
+		<put-attribute name="contenido"  value="/WEB-INF/views/home/configuracion/cambiarContra.jsp" />
+		<put-attribute name="js2"  value="/WEB-INF/views/home/configuracion/cambiarContraJs.jsp" />
+	</definition>	
+	
+	<!-- ACTUALIZAR_DATOS.HTM  -->
+	
+<!-- 	<definition name="actualizarDatos" extends="templateSistema"> -->
+<!-- 		<put-attribute name="actualizarDatosCss"  value="/WEB-INF/views/home/actualizarDatosCss.jsp" /> -->
+<!-- 		<put-attribute name="actualizarDatosContenido"  value="/WEB-INF/views/home/actualizarDatosContenido.jsp" /> -->
+<!-- 		<put-attribute name="actualizarDatosJs"  value="/WEB-INF/views/home/actualizarDatosJs.jsp" /> -->
+<!-- 	</definition> -->
+	
+	<!-- PERFIL.HTM  -->
+	
+	<definition name="perfil" extends="templateSistema">
+		<put-attribute name="css2"  value="/WEB-INF/views/home/perfil/perfilCss.jsp" />
+		<put-attribute name="contenido"  value="/WEB-INF/views/home/perfil/perfilContenido.jsp" />
+		<put-attribute name="js2"  value="/WEB-INF/views/home/perfil/perfilJs.jsp" />
+	</definition>
+	
+	
+	<!-- EDITARPERFILL.HTM  -->
+	
+	<definition name="editarperfil" extends="templateSistema">
+		<put-attribute name="css2"  value="/WEB-INF/views/home/editarperfil/editarperfilCss.jsp" />
+		<put-attribute name="contenido"  value="/WEB-INF/views/home/editarperfil/editarperfilContenido.jsp" />
+		<put-attribute name="js2"  value="/WEB-INF/views/home/editarperfil/editarperfilJs.jsp" />
+	</definition>
+	
+	
+</tiles-definitions>
+

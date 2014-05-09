@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC  
+    "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"  
+    "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+	
+	<!-- ################################ SERVICIO SOCIAL ############################## -->
+	
+<!-- FICHA_SERVICIO_SOCIAL.HTM  -->
+	
+	<definition name="fichaServicioSocial1" extends="templateSistema">
+		<put-attribute name="css2"  value="/WEB-INF/views/bienestar/servicioSocial/fichasocial/fichaSocial1Css.jsp" />
+		<put-attribute name="contenido"  value="/WEB-INF/views/bienestar/servicioSocial/fichasocial/fichaSocialContenido1.jsp" />
+		<put-attribute name="js2"  value="/WEB-INF/views/bienestar/servicioSocial/fichasocial/fichaSocial1Js.jsp" />
+	</definition>
+	
+	<definition name="fichaServicioSocial2" extends="templateSistema">
+		<put-attribute name="css2"  value="/WEB-INF/views/bienestar/servicioSocial/fichasocial/fichaSocial1Css.jsp" />
+		<put-attribute name="contenido"  value="/WEB-INF/views/bienestar/servicioSocial/fichasocial/fichaSocialContenido2.jsp" />
+		<put-attribute name="js2"  value="/WEB-INF/views/bienestar/servicioSocial/fichasocial/fichaSocial2Js.jsp" />
+	</definition>
+	
+	<definition name="fichaServicioSocial3" extends="templateSistema">
+		<put-attribute name="css2"  value="/WEB-INF/views/bienestar/servicioSocial/fichasocial/fichaSocial1Css.jsp" />
+		<put-attribute name="contenido"  value="/WEB-INF/views/bienestar/servicioSocial/fichasocial/fichaSocialContenido3.jsp" />
+		<put-attribute name="js2"  value="/WEB-INF/views/bienestar/servicioSocial/fichasocial/fichaSocial3Js.jsp" />
+	</definition>
+	
+	<definition name="fichaServicioSocial4" extends="templateSistema">
+		<put-attribute name="css2"  value="/WEB-INF/views/bienestar/servicioSocial/fichasocial/fichaSocial1Css.jsp" />
+		<put-attribute name="contenido"  value="/WEB-INF/views/bienestar/servicioSocial/fichasocial/fichaSocialContenido4.jsp" />
+		<put-attribute name="js2"  value="/WEB-INF/views/bienestar/servicioSocial/fichasocial/fichaSocial4Js.jsp" />
+	</definition>
+	
+	<definition name="fichaServicioSocial5" extends="templateSistema">
+		<put-attribute name="css2"  value="/WEB-INF/views/bienestar/servicioSocial/fichasocial/fichaSocial1Css.jsp" />
+		<put-attribute name="contenido"  value="/WEB-INF/views/bienestar/servicioSocial/fichasocial/fichaSocialContenido5.jsp" />
+		<put-attribute name="js2"  value="/WEB-INF/views/bienestar/servicioSocial/fichasocial/fichaSocial5Js.jsp" />
+	</definition>
+	
+	<definition name="fichaServicioSocial6" extends="templateSistema">
+		<put-attribute name="css2"  value="/WEB-INF/views/bienestar/servicioSocial/fichasocial/fichaSocial1Css.jsp" />
+		<put-attribute name="contenido"  value="/WEB-INF/views/bienestar/servicioSocial/fichasocial/fichaSocialContenido6.jsp" />
+		<put-attribute name="js2"  value="/WEB-INF/views/bienestar/servicioSocial/fichasocial/fichaSocial6Js.jsp" />
+	</definition>
+	
+	<definition name="fichaServicioSocial7" extends="templateSistema">
+		<put-attribute name="css2"  value="/WEB-INF/views/bienestar/servicioSocial/fichasocial/fichaSocial1Css.jsp" />
+		<put-attribute name="contenido"  value="/WEB-INF/views/bienestar/servicioSocial/fichasocial/fichaSocialContenido7.jsp" />
+		<put-attribute name="js2"  value="/WEB-INF/views/bienestar/servicioSocial/fichasocial/fichaSocial7Js.jsp" />
+	</definition>
+	
+	<definition name="fichaServicioSocial8" extends="templateSistema">
+		<put-attribute name="css2"  value="/WEB-INF/views/bienestar/servicioSocial/fichasocial/fichaSocial1Css.jsp" />
+		<put-attribute name="contenido"  value="/WEB-INF/views/bienestar/servicioSocial/fichasocial/fichaSocialContenido8.jsp" />
+		<put-attribute name="js2"  value="/WEB-INF/views/bienestar/servicioSocial/fichasocial/fichaSocial8Js.jsp" />
+	</definition>
+	
+	<definition name="fichaServicioSocial9" extends="templateSistema">
+		<put-attribute name="css2"  value="/WEB-INF/views/bienestar/servicioSocial/fichasocial/fichaSocial1Css.jsp" />
+		<put-attribute name="contenido"  value="/WEB-INF/views/bienestar/servicioSocial/fichasocial/fichaSocialContenido9.jsp" />
+		<put-attribute name="js2"  value="/WEB-INF/views/bienestar/servicioSocial/fichasocial/fichaSocial9Js.jsp" />
+	</definition>
+	
+	<definition name="fichaServicioSocialfinal" extends="templateSistema">
+		<put-attribute name="css2"  value="/WEB-INF/views/bienestar/servicioSocial/fichasocial/fichaSocial1Css.jsp" />
+		<put-attribute name="contenido"  value="/WEB-INF/views/bienestar/servicioSocial/fichasocial/fichaSocialFinal.jsp" />
+		<put-attribute name="js2"  value="/WEB-INF/views/bienestar/servicioSocial/fichasocial/fichaSocial9Js.jsp" />
+	</definition>
+	
+	<definition name="fichaServicioSocialActualizar1" extends="templateSistema">
+		<put-attribute name="css2"  value="/WEB-INF/views/bienestar/servicioSocial/fichasocial/fichaSocial1Css.jsp" />
+		<put-attribute name="contenido"  value="/WEB-INF/views/bienestar/servicioSocial/fichasocial/ActualizarContenido1.jsp" />
+		<put-attribute name="js2"  value="/WEB-INF/views/bienestar/servicioSocial/fichasocial/fichaSocial1Js.jsp" />
+	</definition>
+	
+	<definition name="fichaServicioSocialActualizar3" extends="templateSistema">
+		<put-attribute name="css2"  value="/WEB-INF/views/bienestar/servicioSocial/fichasocial/fichaSocial1Css.jsp" />
+		<put-attribute name="contenido"  value="/WEB-INF/views/bienestar/servicioSocial/fichasocial/ActualizarContenido3.jsp" />
+		<put-attribute name="js2"  value="/WEB-INF/views/bienestar/servicioSocial/fichasocial/fichaSocial3Js.jsp" />
+	</definition>
+	
+	<definition name="fichaServicioSocialActualizar4" extends="templateSistema">
+		<put-attribute name="css2"  value="/WEB-INF/views/bienestar/servicioSocial/fichasocial/fichaSocial1Css.jsp" />
+		<put-attribute name="contenido"  value="/WEB-INF/views/bienestar/servicioSocial/fichasocial/ActualizarContenido4.jsp" />
+		<put-attribute name="js2"  value="/WEB-INF/views/bienestar/servicioSocial/fichasocial/fichaSocial4Js.jsp" />
+	</definition>
+		
+	<definition name="fichaServicioSocialActualizar5" extends="templateSistema">
+		<put-attribute name="css2"  value="/WEB-INF/views/bienestar/servicioSocial/fichasocial/fichaSocial1Css.jsp" />
+		<put-attribute name="contenido"  value="/WEB-INF/views/bienestar/servicioSocial/fichasocial/ActualizarContenido5.jsp" />
+		<put-attribute name="js2"  value="/WEB-INF/views/bienestar/servicioSocial/fichasocial/fichaSocial5Js.jsp" />
+	</definition>
+	
+	<definition name="fichaServicioSocialActualizar6" extends="templateSistema">
+		<put-attribute name="css2"  value="/WEB-INF/views/bienestar/servicioSocial/fichasocial/fichaSocial1Css.jsp" />
+		<put-attribute name="contenido"  value="/WEB-INF/views/bienestar/servicioSocial/fichasocial/ActualizarContenido6.jsp" />
+		<put-attribute name="js2"  value="/WEB-INF/views/bienestar/servicioSocial/fichasocial/fichaSocial6Js.jsp" />
+	</definition>
+	
+	<definition name="fichaServicioSocialActualizar7" extends="templateSistema">
+		<put-attribute name="css2"  value="/WEB-INF/views/bienestar/servicioSocial/fichasocial/fichaSocial1Css.jsp" />
+		<put-attribute name="contenido"  value="/WEB-INF/views/bienestar/servicioSocial/fichasocial/ActualizarContenido7.jsp" />
+		<put-attribute name="js2"  value="/WEB-INF/views/bienestar/servicioSocial/fichasocial/fichaSocial7Js.jsp" />
+	</definition>
+	
+	<definition name="fichaServicioSocialActualizar8" extends="templateSistema">
+		<put-attribute name="css2"  value="/WEB-INF/views/bienestar/servicioSocial/fichasocial/fichaSocial1Css.jsp" />
+		<put-attribute name="contenido"  value="/WEB-INF/views/bienestar/servicioSocial/fichasocial/ActualizarContenido8.jsp" />
+		<put-attribute name="js2"  value="/WEB-INF/views/bienestar/servicioSocial/fichasocial/fichaSocial8Js.jsp" />
+	</definition>
+
+	
+	
+</tiles-definitions>
+
